@@ -1,0 +1,10 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 06.07.2015 17:19:43
+
+BeginCmp
+TimeStamp = /5597BC43;
+Reference = M1;
+ValeurCmp = HL8548;
+IdModule  = Meshium:LGA-234;
+EndCmp
+
+EndListe
