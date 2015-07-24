@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 15.07.2015 16:13:29
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 23.07.2015 13:45:01
 
 BeginCmp
 TimeStamp = /559F65BE;
@@ -45,7 +45,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55A4BA77;
 Reference = C6;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1uF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
@@ -78,6 +78,48 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /55AF50B4;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55AF51AC;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B0C5AF;
+Reference = C13;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55AF4B0A;
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55AF1CF2;
+Reference = C15;
+ValeurCmp = 0.22uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55AF21BC;
+Reference = C16;
+ValeurCmp = 0.22uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /55A202B3;
 Reference = D1;
 ValeurCmp = LED_small;
@@ -94,6 +136,13 @@ EndCmp
 BeginCmp
 TimeStamp = /55A65E95;
 Reference = D3;
+ValeurCmp = ESD7471;
+IdModule  = Meshium:SOD-882;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B0F376;
+Reference = D4;
 ValeurCmp = ESD7471;
 IdModule  = Meshium:SOD-882;
 EndCmp
@@ -131,13 +180,6 @@ TimeStamp = /5597BC43;
 Reference = M1;
 ValeurCmp = HL8548;
 IdModule  = Meshium:LGA-234;
-EndCmp
-
-BeginCmp
-TimeStamp = /55A0F92B;
-Reference = P1;
-ValeurCmp = CONN_01X06;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
 EndCmp
 
 BeginCmp
@@ -197,17 +239,38 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /559FFD1C;
-Reference = S1;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+TimeStamp = /55AD5D49;
+Reference = R7;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /559FFF61;
+TimeStamp = /55AF19AF;
+Reference = R8;
+ValeurCmp = 22R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55AF1C6E;
+Reference = R9;
+ValeurCmp = 22R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ACC337;
+Reference = S1;
+ValeurCmp = CONN_02X10;
+IdModule  = Meshium:Pin_Header_Straight_2x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ACC3D3;
 Reference = S2;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+ValeurCmp = CONN_02X10;
+IdModule  = Meshium:Pin_Header_Straight_2x10;
 EndCmp
 
 BeginCmp
@@ -225,6 +288,20 @@ IdModule  = Meshium:IPEX-20279-001E-01;
 EndCmp
 
 BeginCmp
+TimeStamp = /55A0F92B;
+Reference = S5;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B0E88A;
+Reference = S6;
+ValeurCmp = IPEX-20279-001E-01;
+IdModule  = Meshium:IPEX-20279-001E-01;
+EndCmp
+
+BeginCmp
 TimeStamp = /559D2FC2;
 Reference = U1;
 ValeurCmp = NCP3170;
@@ -232,17 +309,17 @@ IdModule  = Meshium:SOIC8;
 EndCmp
 
 BeginCmp
-TimeStamp = /559D2DF3;
+TimeStamp = /55B0BDC6;
 Reference = U2;
-ValeurCmp = SN74LVC1T45DBVR;
-IdModule  = Meshium:SOT23-6;
+ValeurCmp = SN74LVC2T45DCT;
+IdModule  = Meshium:SSOP-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /559D2E4E;
+TimeStamp = /55B0BE1A;
 Reference = U3;
-ValeurCmp = SN74LVC1T45DBVR;
-IdModule  = Meshium:SOT23-6;
+ValeurCmp = SN74LVC2T45DCT;
+IdModule  = Meshium:SSOP-8;
 EndCmp
 
 BeginCmp
